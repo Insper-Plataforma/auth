@@ -60,7 +60,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#auth-service" class="md-skip">
+        <a href="#auth-interface" class="md-skip">
           Skip to content
         </a>
       
@@ -242,9 +242,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#funcionalidades-principais" class="md-nav__link">
+  <a href="#objetivo" class="md-nav__link">
     <span class="md-ellipsis">
-      Funcionalidades principais
+      Objetivo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pacote" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pacote
     </span>
   </a>
   
@@ -395,9 +404,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#funcionalidades-principais" class="md-nav__link">
+  <a href="#objetivo" class="md-nav__link">
     <span class="md-ellipsis">
-      Funcionalidades principais
+      Objetivo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pacote" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pacote
     </span>
   </a>
   
@@ -419,17 +437,17 @@
 
 
 
-<h1 id="auth-service">Auth Service</h1>
-<p>O <code>auth-service</code> é responsável por autenticar usuários, registrar novas contas e validar tokens JWT.</p>
-<p>Este microsserviço funciona como a <strong>porta de entrada da plataforma</strong>, gerando e validando tokens que são utilizados pelos demais serviços para garantir segurança e integridade das requisições.</p>
+<h1 id="auth-interface">Auth Interface</h1>
+<p>Este módulo define a <strong>interface Feign</strong> para comunicação com o microsserviço <code>auth-service</code>, responsável pela autenticação e autorização de usuários.</p>
 <hr />
-<h2 id="funcionalidades-principais">Funcionalidades principais</h2>
+<h2 id="objetivo">Objetivo</h2>
+<p>Facilitar a comunicação entre microsserviços por meio de chamadas REST encapsuladas, utilizando Feign Client, evitando duplicação de lógica HTTP.</p>
+<hr />
+<h2 id="pacote">Pacote</h2>
 <ul>
-<li>Registro de novos usuários</li>
-<li>Autenticação com email e senha</li>
-<li>Geração de tokens JWT</li>
-<li>Validação de tokens e identificação de contas</li>
+<li><code>store.auth</code> - Pacote principal que contém a interface Feign e os objetos de entrada e saída.</li>
 </ul>
+<hr />
 
 
 
