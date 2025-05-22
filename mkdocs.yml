@@ -1,0 +1,11 @@
+site_name: "Documentação Auth"
+theme:
+  name: material
+
+nav:
+  - Introdução: index.md
+  - Fluxo de Autenticação: fluxo-autenticacao.md
+  - Arquitetura: arquitetura.md
+  - Entidades: entidades.md
+  - Endpoints: endpoints.md
+  - Segurança: seguranca.md
