@@ -1,6 +1,6 @@
 # Endpoints da API
 
-Base URL: `/auth`
+Todos os endpoints se referem ao microsserviço `auth` com base URL: `http://auth:8080`.
 
 ---
 
@@ -9,6 +9,7 @@ Base URL: `/auth`
 Registra um novo usuário e retorna o token JWT.
 
 ### Request Body
+
 ```json
 {
   "name": "Ana Helena",
@@ -18,11 +19,13 @@ Registra um novo usuário e retorna o token JWT.
 ```
 
 ### Response
+
 ```json
 {
-    "token": "jwt.token.aqui"
+  "token": "jwt.token.aqui"
 }
 ```
+
 ---
 
 ## POST `/auth/login`
@@ -30,6 +33,7 @@ Registra um novo usuário e retorna o token JWT.
 Registra um novo usuário e retorna o token JWT.
 
 ### Request Body
+
 ```json
 {
   "email": "ana@exemplo.com",
@@ -38,9 +42,10 @@ Registra um novo usuário e retorna o token JWT.
 ```
 
 ### Response
+
 ```json
 {
-    "token": "jwt.token.aqui"
+  "token": "jwt.token.aqui"
 }
 ```
 
@@ -51,16 +56,19 @@ Registra um novo usuário e retorna o token JWT.
 Resolve o token JWT e retorna o id da conta.
 
 ### Request
+
 ```json
 {
   "token": "jwt.token.aqui"
 }
-``` 
+```
 
 ### Response
+
 ```json
 {
-    "id": "uuid-da-conta"
+  "id": "uuid-da-conta"
 }
 ```
+
 ---
