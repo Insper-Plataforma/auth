@@ -9,10 +9,8 @@
       
       
       
-        <link rel="prev" href="..">
+        <link rel="prev" href="../seguranca/">
       
-      
-        <link rel="next" href="../arquitetura/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -20,7 +18,7 @@
     
     
       
-        <title>Fluxo de Autenticação - Documentação Auth</title>
+        <title>Setup - Documentação Auth</title>
       
     
     
@@ -62,7 +60,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#fluxo-de-autenticacao" class="md-skip">
+        <a href="#setup-e-dependencias" class="md-skip">
           Skip to content
         </a>
       
@@ -98,7 +96,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Fluxo de Autenticação
+              Setup
             
           </span>
         </div>
@@ -213,32 +211,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Fluxo de Autenticação
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../fluxo-autenticacao/" class="md-nav__link">
         
   
   
@@ -249,53 +225,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#1-registro-authregister" class="md-nav__link">
-    <span class="md-ellipsis">
-      1. Registro (/auth/register)
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2-login-authlogin" class="md-nav__link">
-    <span class="md-ellipsis">
-      2. Login (/auth/login)
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#3-validacao-authsolve" class="md-nav__link">
-    <span class="md-ellipsis">
-      3. Validação (/auth/solve)
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -392,10 +321,32 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../setup/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Setup
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -406,6 +357,62 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#requisitos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requisitos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#como-compilar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Como compilar
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dependencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dependências
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#como-usar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Como usar
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -437,27 +444,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#1-registro-authregister" class="md-nav__link">
+  <a href="#requisitos" class="md-nav__link">
     <span class="md-ellipsis">
-      1. Registro (/auth/register)
+      Requisitos
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#2-login-authlogin" class="md-nav__link">
+  <a href="#como-compilar" class="md-nav__link">
     <span class="md-ellipsis">
-      2. Login (/auth/login)
+      Como compilar
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#3-validacao-authsolve" class="md-nav__link">
+  <a href="#dependencias" class="md-nav__link">
     <span class="md-ellipsis">
-      3. Validação (/auth/solve)
+      Dependências
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#como-usar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Como usar
     </span>
   </a>
   
@@ -479,23 +495,36 @@
 
 
 
-<h1 id="fluxo-de-autenticacao">Fluxo de Autenticação</h1>
-<p>Este é o ciclo básico de autenticação e autorização do sistema:</p>
-<h2 id="1-registro-authregister">1. Registro (<code>/auth/register</code>)</h2>
+<h1 id="setup-e-dependencias">Setup e dependências</h1>
+<p>Este módulo define apenas a <strong>interface REST <code>AuthController</code></strong> e os DTOs relacionados.</p>
+<hr />
+<h2 id="requisitos">Requisitos</h2>
 <ul>
-<li>O usuário envia seu nome, email e senha.</li>
-<li>O serviço cria a conta (em outro serviço) e retorna um token JWT.</li>
+<li>Java 17+</li>
+<li>Lombok</li>
 </ul>
-<h2 id="2-login-authlogin">2. Login (<code>/auth/login</code>)</h2>
-<ul>
-<li>O usuário fornece email e senha.</li>
-<li>Se os dados estiverem corretos, um novo token é emitido.</li>
-</ul>
-<h2 id="3-validacao-authsolve">3. Validação (<code>/auth/solve</code>)</h2>
-<ul>
-<li>Um serviço interno envia o token para validação.</li>
-<li>O <code>auth-service</code> extrai o <code>idAccount</code> do token JWT e retorna.</li>
-</ul>
+<hr />
+<h2 id="como-compilar">Como compilar</h2>
+<pre><code class="language-bash">mvn clean install
+</code></pre>
+<hr />
+<h2 id="dependencias">Dependências</h2>
+<p>Requisitos no arquivo <code>pom.xml</code>:</p>
+<pre><code class="language-xml">&lt;dependency&gt;
+    &lt;groupId&gt;org.springframework.cloud&lt;/groupId&gt;
+    &lt;artifactId&gt;spring-cloud-starter-openfeign&lt;/artifactId&gt;
+&lt;/dependency&gt;
+</code></pre>
+<hr />
+<h2 id="como-usar">Como usar</h2>
+<p>Este módulo é usado como <strong>dependência em <code>auth-service</code></strong>, que implementa de fato a interface.</p>
+<p>Certifique-se de importar o pacote corretamente ao implementar:</p>
+<pre><code class="language-java">@RestController
+public class AuthResource implements AuthController {
+    // ...
+}
+</code></pre>
+<hr />
 
 
 
