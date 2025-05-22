@@ -15,3 +15,13 @@ Facilitar a comunicação entre microsserviços por meio de chamadas REST encaps
 - `store.auth` - Pacote principal que contém a interface Feign e os objetos de entrada e saída.
 
 ---
+
+## Estrutura dos arquivos
+
+| Arquivo               | Descrição                                                                     |
+| --------------------- | ----------------------------------------------------------------------------- |
+| `AuthController.java` | Interface Feign com os endpoints disponíveis do microsserviço de autenticação |
+| `LoginIn.java`        | Objeto de entrada para o login na conta                                       |
+| `RegisterIn.java`     | Objeto de entrada para o registro da conta                                    |
+| `SolveOut.java`       | Id da conta que é retornado quando realiza o registro                         |
+| `TokenOut.java`       | Token da conta que é retornado quando realiza o login                         |
