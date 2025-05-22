@@ -1,14 +1,17 @@
-# Auth Service
+# Auth Interface
 
-O `auth-service` é responsável por autenticar usuários, registrar novas contas e validar tokens JWT.
-
-Este microsserviço funciona como a **porta de entrada da plataforma**, gerando e validando tokens que são utilizados pelos demais serviços para garantir segurança e integridade das requisições.
+Este módulo define a **interface Feign** para comunicação com o microsserviço `auth-service`, responsável pela autenticação e autorização de usuários.
 
 ---
 
-## Funcionalidades principais
+## Objetivo
 
-- Registro de novos usuários
-- Autenticação com email e senha
-- Geração de tokens JWT
-- Validação de tokens e identificação de contas
+Facilitar a comunicação entre microsserviços por meio de chamadas REST encapsuladas, utilizando Feign Client, evitando duplicação de lógica HTTP.
+
+---
+
+## Pacote
+
+- `store.auth` - Pacote principal que contém a interface Feign e os objetos de entrada e saída.
+
+---
