@@ -3,7 +3,7 @@ theme:
   name: material
 
 nav:
-  - Introdução: index.md
+  - Início: index.md
   - Fluxo de Autenticação: fluxo-autenticacao.md
   - Arquitetura: arquitetura.md
   - Entidades: entidades.md
