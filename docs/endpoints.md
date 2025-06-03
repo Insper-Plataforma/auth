@@ -1,4 +1,4 @@
-# Endpoints da API
+# Endpoints - Feign Interface `AuthController`
 
 Todos os endpoints se referem ao microsserviço `auth` com base URL: `http://auth:8080`.
 
